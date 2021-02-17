@@ -1,0 +1,410 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-size: 14px;
+    color: #000;
+    font-family: 'Rokkitt', serif;
+
+}
+
+.for_page {
+    position: relative;
+    min-height: 100%;
+}
+
+/*header*/
+
+.header {
+    z-index: 2;
+    position: relative;
+    padding-top: 60px;
+}
+
+.logo {
+    padding-top: 16px;
+    color: #ffffff
+}
+
+.navbar-nav .active {
+    border-bottom: 1px solid #ffffff;
+}
+
+.nav-menu {
+    float: right;
+}
+
+.navbar-nav li {
+    margin: 0 20px;
+}
+
+.navbar-nav li a {
+    color: #ffffff;
+    transition: 0.3s;
+    text-transform: uppercase;
+}
+
+.navbar-nav li a:hover {
+    color: red;
+}
+
+/*header*/
+
+.nav-menu .navbar-toggler,
+.nav-menu .navbar-brand {
+    display: none;
+}
+
+/*banner*/
+.banner {
+    position: relative;
+    left: 0;
+    top: -116px;
+    z-index: 1;
+    background: url(../pic/photo_2021-01-11_09-29-06.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+}
+
+.banner {
+    text-align: center;
+
+}
+
+.banner h2 {
+    padding-top: 250px;
+    color: #ffffff;
+}
+
+
+.banner .text {
+    max-width: 600px;
+    margin: 0 auto;
+    color: #ffffff;
+    margin-top: 20px;
+    border-top: 1px solid white;
+    padding-top: 20px;
+}
+
+.banner .btn {
+    width: 150px;
+    height: 40px;
+    background-color: #e74c3c;
+    margin-top: 126px;
+    border: 3px solid #f1968c;
+}
+
+.banner .btn:hover {
+    background-color: #f1968c;
+    border: 3px solid #e74c3c;
+}
+
+.banner .btn a {
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.banner .btn a:hover {
+    text-decoration: none;
+    color: aqua;
+}
+
+/*========================banner ==================================*/
+
+
+
+/* ========================  Raphael    =================*/
+
+.raphael .text-info {
+    text-align: center;
+}
+
+.raphael h2 {
+    color: #e74c3c;
+    font-weight: 800;
+    padding-bottom: 100px;
+
+}
+
+.raphael .text-info p {
+    display: inline-block;
+    color: #95a5a6;
+    max-width: 800px;
+    padding-bottom: 50px;
+
+}
+
+.instrument-icon .icon_box i {
+    color: #e74c3c;
+    font-size: 50px;
+    padding-bottom: 30px
+}
+
+.instrument-icon h3 {
+    color: #e74c3c;
+    padding-bottom: 30px;
+}
+
+.instrument-icon p {
+    color: #95a5a6;
+    text-align: justify
+}
+
+.instrument-icon {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+/* ========================  Raphael    =================*/
+
+
+
+
+/* ========================  picture    =================*/
+
+
+
+
+
+
+.box-wrupper {
+    max-width: 450px;
+    height: 350px;
+    margin: 25px;
+
+}
+
+
+/*
+.box-wrupper.bud.bud-mask {
+    background-image: url(../pic/buddah2.jpg);
+
+}
+*/
+
+
+/*
+.bud-mask {
+    background-image: url(../pic/buddah2.jpg);
+    background-size: cover;
+    width: 450px;
+    height: 350px;
+    position: absolute;
+    margin: 25px;
+
+}
+
+.bud-mask:hover.box-wrupper {
+    display: block;
+
+}
+*/
+
+.box-wrupper.bud {
+    background: url(../pic/buddah.jpg) no-repeat;
+    background-size: cover;
+
+}
+
+
+.box-wrupper.sun {
+    background: url(../pic/sun.jpg) no-repeat;
+    background-size: cover;
+}
+
+.box-wrupper.flower {
+    background: url(../pic/flower.jpg) no-repeat;
+    background-size: cover;
+}
+
+
+.box-wrupper.dinner {
+    background: url(../pic/dinner.jpg) no-repeat;
+    background-size: cover;
+}
+
+.picture .box-wrupper {
+    position: relative;
+}
+
+.box-wrupper .box-info {
+    position: absolute;
+    background: red;
+    max-height: 150px;
+    width: 100%;
+    bottom: 0;
+    border-top: 5px solid #952e24;
+}
+
+.box-wrupper .box-info h3 {
+    color: #ffffff;
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.box-wrupper .box-info p {
+    color: #ac3e33;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.box-wrupper .icon_search {
+    position: absolute;
+    background: #e74c3c;
+    width: 40px;
+    height: 40px;
+    color: #ffffff;
+    right: 20px;
+    top: 20px;
+    border: 2px solid #b83224;
+}
+
+.icon_search {
+    text-align: center;
+    padding-top: 6px;
+}
+
+.icon_search a {
+    color: #ffffff;
+}
+
+.more {
+    background: #e74c3c;
+    padding: 15px;
+    margin: 65px auto;
+    outline: none;
+    border: 0;
+}
+
+.more h4 {
+    color: #f8f8f8;
+    font-weight: 200;
+    padding: 15px;
+    display: inline;
+}
+
+.more i {
+    color: #ffffff;
+    float: right;
+    font-size: 30px;
+}
+
+/* ========================  picture    =================*/
+
+
+/* ========================  forma    =================*/
+
+.form .texter {
+    display: none;
+}
+
+.forma {
+    padding-bottom: 350px;
+    text-align: center;
+}
+
+.forma h3 {
+    color: #e74c3c;
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+.forma input {
+    background: #e4e8e7;
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin: 20px;
+    width: 30%;
+}
+
+.forma .input-text {
+    background: #e4e8e7;
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin: 20px;
+    width: 64%;
+}
+
+textarea {
+    background: #e4e8e7;
+    padding: 15px;
+    border: 0;
+    outline: none;
+}
+
+/* ========================  forma    =================*/
+
+
+
+
+/* ========================  footer    =================*/
+
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer {
+    background: #e74c3c;
+}
+
+.footer .icon-footer {
+    background: #ffff;
+    width: 75px;
+    height: 75px;
+    margin: 0 auto;
+    border: 3px solid #f1968c;
+    margin-top: -30px;
+    text-align: center;
+}
+
+.footer .icon-footer i {
+    color: #e74c3c;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.footer .icons.left p {
+    color: #fdfdfd;
+    text-align: left;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.footer .icons.right p {
+    color: #fdfdfd;
+    text-align: right;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.icon-footer i:hover {
+    color: blue;
+}
+
+
+/* ========================  footer   =================*/
+
+/*font-family: 'Rokkitt', serif;
+
+font-family: 'Open Sans', sans-serif;
+font-family: "Myriad Pro", sans-serif;
+
+*/

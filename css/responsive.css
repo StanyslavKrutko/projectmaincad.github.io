@@ -1,0 +1,263 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media(max-width:1199px) {
+    .forma input {
+        width: 36%;
+    }
+
+    .forma {
+        padding-bottom: 300px;
+        text-align: center;
+    }
+
+}
+
+@media(max-width:991px) {
+    .banner h2 {
+        padding-top: 150px;
+    }
+
+    .banner .btn {
+        width: 130px;
+        height: 40px;
+        margin-top: 50px;
+
+    }
+
+    .banner {
+        height: 400px;
+    }
+
+    .raphael {
+        margin-top: -50px;
+    }
+
+    .raphael h2 {
+        color: #e74c3c;
+        font-weight: 600;
+        padding-bottom: 70px;
+    }
+
+    .raphael .text-info p {
+        text-align: justify;
+        max-width: 650px;
+        padding-bottom: 50px;
+
+    }
+
+    .instrument-icon {
+        margin: 25px auto;
+        width: 400px;
+
+    }
+
+    .picture {
+        margin-top: 60px;
+    }
+
+    .more {
+        padding: 5px;
+        margin: 40px auto;
+    }
+
+    .forma {
+        padding-bottom: 300px;
+    }
+
+    .forma h3 {
+        margin-bottom: 40px;
+        font-size: 40px;
+    }
+
+    .forma input {
+        padding: 5px;
+        margin: 10px;
+        width: 300px;
+    }
+
+    textarea {
+        padding: 15px;
+    }
+
+    .footer .icons.left p {
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+    .footer .icons.right p {
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+    .footer .icon-footer {
+        width: 55px;
+        height: 55px;
+
+    }
+
+    .footer .icon-footer i {
+        line-height: 55px;
+
+    }
+
+    .footer {
+        height: 150px;
+    }
+
+}
+
+
+@media(max-width:767px) {
+
+    .header {
+        padding-top: 0px;
+    }
+
+    .nav-menu .navbar-toggler,
+    .nav-menu .navbar-brand {
+        display: block;
+        color: #006ece;
+    }
+
+    .raphael h2 {
+        font-weight: 600;
+        padding-bottom: 40px;
+    }
+
+    .raphael .text-info p {
+        font-size: 12px;
+        padding-bottom: 30px;
+    }
+
+    .instrument-icon h3 {
+        padding-bottom: 12px;
+    }
+
+    .picture {
+        margin-top: 10px;
+    }
+
+    .box-info h3 {
+        font-size: 22px;
+    }
+
+    .box-info p {
+        font-size: 14px;
+    }
+
+
+    .box-wrupper {
+        max-width: 350px;
+        height: 300px;
+        margin: 25px auto;
+    }
+
+    .forma h3 {
+        margin-bottom: 10px;
+    }
+
+    textarea {
+        display: none;
+    }
+
+    .form .texter {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .forma {
+        padding-bottom: 220px;
+    }
+
+    .footer {
+        height: 110px;
+    }
+
+}
+
+
+@media(max-width:500px) {
+    .banner h2 {
+        padding-top: 120px;
+    }
+
+    .banner .btn {
+        width: 100px;
+        height: 40px;
+        margin-top: 20px;
+    }
+
+    .banner {
+        height: 310px;
+    }
+
+    .raphael {
+        margin-top: -90px;
+
+    }
+
+    .raphael h2 {
+        padding-bottom: 15px;
+
+    }
+
+    .raphael .text-info p {
+        padding-bottom: 10px;
+    }
+
+    .text-info {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+
+
+    .instrument-icon {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .instrument-icon p {
+        font-size: 10px;
+    }
+
+    .icons.left p {
+        font-size: 10px;
+    }
+
+    .icons.right p {
+        font-size: 10px;
+    }
+
+
+    .footer .icon-footer {
+        width: 35px;
+        height: 35px;
+        margin-top: -15px;
+    }
+
+    .footer .icon-footer i {
+        font-size: 22px;
+        line-height: 35px;
+    }
+
+    .forma {
+        padding-bottom: 160px;
+    }
+
+    .footer .icons.left p {
+        padding-top: 20px;
+    }
+
+    .footer .icons.right p {
+        padding-top: 20px;
+    }
+
+    .footer {
+        height: 75px;
+    }
+}
+
+
+@media(max-width:480px) {}
